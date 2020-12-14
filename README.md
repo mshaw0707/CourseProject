@@ -8,6 +8,7 @@ I successfully beat the baseline by training a PyTorch BERT model using the Hugg
 # Libraries/Languages
 
 - Python
+- Pytorch
 - Huggingface transformers
 - Pandas
 - SKLearn
@@ -22,3 +23,7 @@ I developed the entire project within a Google Colab (https://colab.research.goo
 2. The data storage for a Google Colab workspace is ephemeral, so the train.jsonl and test.jsonl files must be uploaded to the workspace storage each time.
 3. (Optional) For faster model training, click Edit -> Notebook Settings, then set the Hardware Accelerator to 'GPU' inside the popup. This was available for me using the free tier of Colab during development. The code will default to CPU computation if this is not done and the model will take longer to train.
 4. Run all code blocks in order. The file `answer.txt` will be created in the workspace for download. I used 5 epochs for training and it generated predictions that beat the baseline.
+
+# Presentation
+
+I did not have time to do a presentation.
